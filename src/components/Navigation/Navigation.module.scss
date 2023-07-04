@@ -1,0 +1,41 @@
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+    padding: 30px 45px 20px;
+    border-bottom: 4px solid #E6E6E6;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;;
+        left: 0;
+        width: 360px;
+        height: 4px;
+        background: linear-gradient(90deg, #011461 0%, #032EDD 100%);
+      }
+
+    .navigationBlock {
+    display: flex;
+    align-items: center;
+          
+       .navigationDesc {
+        color: #57565E;
+        font-size: 16px;
+        margin-right: 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+       }
+
+       .currentItem {
+        color: #032EDD;
+        font-size: 22px;
+        font-weight: 600;
+       }
+    }
+}

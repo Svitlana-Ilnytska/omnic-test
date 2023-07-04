@@ -1,0 +1,50 @@
+[
+  {
+    "id": "200.0x110.0x405.0",
+    "image": "box-size-xxs.png",
+    "title": "XXS",
+    "size": "20х11 см"
+  },
+  {
+    "id": "200.0x160.0x405.0",
+    "image": "box-size-xs.png",
+    "title": "XS",
+    "size": "20x16 см"
+  },
+  {
+    "id": "380.0x110.0x405.0",
+    "image": "box-size-s.png",
+    "title": "S",
+    "size": "38x11 см"
+  },
+  {
+    "id": "200.0x209.0x405.0",
+    "image": "box-size-m.png",
+    "title": "M",
+    "size": "20x21 см"
+  },
+  {
+    "id": "380.0x160.0x405.0",
+    "image": "box-size-l.png",
+    "title": "L",
+    "size": "38x16 см"
+  },
+  {
+    "id": "380.0x209.0x405.0",
+    "image": "box-size-xl.png",
+    "title": "XL",
+    "size": "38x21 см"
+  },
+  {
+    "id": "645.0x210.0x405.0",
+    "image": "box-size-xxl.png",
+    "title": "XXL",
+    "size": "64x21 см"
+  },
+  {
+    "id": "645.0x365.0x405.0",
+    "image": "box-size-xxxl.png",
+    "title": "XXXL",
+    "size": "64x36 см"
+  }
+]

@@ -1,0 +1,18 @@
+.listBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    column-gap: 25px;
+
+    .list {
+        width: 454px;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0;
+
+        &>li:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.buttonContainer {
+  min-width: 180px;
+  width: auto;
+  height: 60px;
+  letter-spacing: 0.5px;
+  padding: 0 35px 0 35px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 2px solid #032EDD;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.inverted {
+    background-color: #FFF;
+    ;
+    color: #032EDD;
+
+    &:hover {
+      background-color: #e3f0ff;
+    }
+  }
+
+  &.approved {
+    background: #032EDD;
+    color: #FFF;
+
+    &:hover {
+      background-color: #0a66c2;
+    }
+  }
+}
