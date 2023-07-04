@@ -24,7 +24,7 @@ export default function Home() {
           />
         </Link>
 
-        <Link to="/">
+        <Link to="/store">
           <CardItem
             image={ParcelImage}
             title={"Повернення до інтернет магазину"}

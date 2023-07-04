@@ -52,6 +52,14 @@ export default function CellSizes({ maxSize }) {
     }
   }, [data, dispatch]);
 
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error occurred. Please try again later.</div>;
+  }
+
   const checkMaxSize = (params, has_empty) => {
     const { width, height, depth } = params;
     return (
@@ -68,8 +76,6 @@ export default function CellSizes({ maxSize }) {
       setSelectedItemId(boxItemId);
     }
   };
-
-
 
   return (
     <div className={css.sizesPage}>
