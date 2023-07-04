@@ -8,7 +8,7 @@ import {
 import Home from "./views/Home/Home";
 import Packed from "./views/Packed/Packed";
 import CellSizes from "./views/CellSizes/CellSizes";
-import UnderStructure from "./views/UnderStructure/UnderStructure";
+import UnderConstruction from "./views/UnderConstruction/UnderConstruction";
 import Navigation from "./components/Navigation/Navigation";
 import { useSelector } from "react-redux";
 import { useFetchDeviceQuery } from "./redux/device/operations";
@@ -46,12 +46,12 @@ function App() {
               path="/:uid/sizes"
               element={<CellSizes maxSize={maxSize} />}
             />
-              <Route path="/store" element={<UnderStructure />} />
+              <Route path="/store" element={<UnderConstruction />} />
           </>
         ) : (
           <>
             <Route path="/" element={<Home />} exact />
-            <Route path="/store" element={<UnderStructure />} />
+            <Route path="/store" element={<UnderConstruction />} />
           </>
         )}
       </Routes>

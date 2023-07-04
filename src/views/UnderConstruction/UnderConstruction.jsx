@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
-import css from "./UnderStructure.module.scss";
+import css from "./UnderConstruction.module.scss";
 
-export default function UnderStructure() {
+export default function UnderConstruction() {
     return (
       <div className={css.emptyBlock}>
         <h2>Сторінка в розробці</h2>
